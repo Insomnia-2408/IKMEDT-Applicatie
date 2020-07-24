@@ -1,0 +1,105 @@
+html {
+  overflow: hidden;
+}
+
+.top-bar {
+  top: 0;
+  height: 7%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #333;
+}
+
+.top-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.top-bar li:first-child {
+  margin-left: 15%;
+}
+
+.top-bar li {
+  float: left;
+}
+
+.top-bar li a {
+  height: 100%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+.top-bar li a:hover {
+  background-color: #111;
+}
+
+.side-bar {
+  top: 7%;
+  left: 0;
+  height: 93%;
+  width: 15%;
+  position: absolute;
+  background-color: #f1f1f1;
+}
+
+.side-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.side-bar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.side-bar li a:hover {
+  background-color: #727372;
+}
+
+.content {
+  left: 15%;
+  top: 7%;
+  height: 93%;
+  padding: 0 2% 0 2%;
+  position: fixed;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.icon {
+  max-width: 5%;
+  max-height: 5%;
+}
+
+.components {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  list-style: none;
+  width: 81%;
+  padding: 0;
+}
+
+.components li {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(100, 100, 100, 0.5);
+  position: relative;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
