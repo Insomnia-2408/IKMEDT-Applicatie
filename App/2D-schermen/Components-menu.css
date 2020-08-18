@@ -85,8 +85,8 @@ html {
 .components {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   list-style: none;
   width: 81%;
   padding: 0;
@@ -95,8 +95,14 @@ html {
 .components li {
   padding: 10px;
   text-align: center;
-  background-color: rgba(100, 100, 100, 0.5);
+  background-color: grey;
   position: relative;
+  transition: 0.5s;
+}
+
+.components li:hover {
+  transform: scale(1.05);
+  z-index: 1;
 }
 
 body {

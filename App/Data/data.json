@@ -1,0 +1,42 @@
+products={
+  "cpus": {
+    "categories": [
+      "Intel",
+      "Ryzen"
+    ],
+    "items": [
+      {
+        "name": "Intel i5 10600k",
+        "category": [
+          "Intel"
+        ]
+      },
+      {
+        "name": "Ryzen 5 3600",
+        "cpus": [
+          "Ryzen"
+        ]
+      }
+    ]
+  },
+  "cpu_coolers": {
+    "categories": [
+      "Tower cooler",
+      "Low profile"
+    ],
+    "items": [
+      {
+        "name": "Noctua D15",
+        "category": [
+          "Tower cooler"
+        ]
+      },
+      {
+        "name": "Cooler Master MasterAir G100M",
+        "category": [
+          "Low profile"
+        ]
+      }
+    ]
+  }
+}
